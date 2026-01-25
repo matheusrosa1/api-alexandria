@@ -2,6 +2,7 @@ package com.betrybe.alexandria.service;
 
 import com.betrybe.alexandria.entity.Book;
 import com.betrybe.alexandria.repository.BookRepository;
+import com.betrybe.alexandria.service.exception.BookNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
